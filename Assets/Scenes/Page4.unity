@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 22301903}
   - component: {fileID: 22301902}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Easy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5110407b2089d8a4ea1031f6cf8df4b6, type: 3}
+    m_Font: {fileID: 12800000, guid: a515645339633d14bb2110c353a85ea3, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 453685139}
   - component: {fileID: 453685142}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button-Medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce93cfec9f2ce8a41bc1b5d5b25d4dda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3d7fefb27d05734b9c1684b4556fa08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 478710042}
   - component: {fileID: 478710045}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Button-Hard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce93cfec9f2ce8a41bc1b5d5b25d4dda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3d7fefb27d05734b9c1684b4556fa08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 492396210}
   - component: {fileID: 492396213}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button-Easy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce93cfec9f2ce8a41bc1b5d5b25d4dda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3d7fefb27d05734b9c1684b4556fa08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -956,8 +956,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 30, y: 0}
-  m_SizeDelta: {x: -60, y: 0}
+  m_AnchoredPosition: {x: 40, y: 0}
+  m_SizeDelta: {x: -80, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &817558436
 MonoBehaviour:
@@ -978,7 +978,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 4765a058894059a44bd77abb94e5698c, type: 3}
+    m_Font: {fileID: 12800000, guid: a515645339633d14bb2110c353a85ea3, type: 3}
     m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
@@ -1108,7 +1108,7 @@ GameObject:
   - component: {fileID: 992499820}
   - component: {fileID: 992499819}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1152,7 +1152,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5110407b2089d8a4ea1031f6cf8df4b6, type: 3}
+    m_Font: {fileID: 12800000, guid: a515645339633d14bb2110c353a85ea3, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -1185,7 +1185,7 @@ GameObject:
   - component: {fileID: 1039678237}
   - component: {fileID: 1039678236}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Hard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1229,7 +1229,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5110407b2089d8a4ea1031f6cf8df4b6, type: 3}
+    m_Font: {fileID: 12800000, guid: a515645339633d14bb2110c353a85ea3, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -1435,7 +1435,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 350, y: -180}
-  m_SizeDelta: {x: 100, y: 80}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111434531
 MonoBehaviour:
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7a21c54166c91b94ea62a962f9605ed3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68810bfaae3d8094a9246451905af7d0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1601,7 +1601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e66eb7d9cf75334e9c02a28ae571bd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 13aff14107e723748ac4081820ebaf7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
