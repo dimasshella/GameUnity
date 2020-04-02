@@ -4,58 +4,49 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    public int kekuatanJump, moveSpeed;
-    public bool back;
-    public int move;
-    Rigidbody2D jump;
+    public float walkSpeed;
+    public bool grounded;
+    public float jumpForce = 750f;
 
-    public bool tanah;
-    public LayerMask targetLayar;
-    public Transform deteksitanah;
-    public float jangkauan;
+    private Rigidbody2D rbd;
+    private Animator anim;
 
     void Start()
     {
-        jump = GetComponent<Rigidbody2D>();
+        rbd = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
+
     void Update()
     {
-        tanah = Physics2D.OverlapCircle (deteksitanah.position, jangkauan, targetLayar);
-        if (Input.GetKey(KeyCode.D))
+        float x = Input.GetAxis("Horizontal");
+        anim.SetFloat("Speed", Mathf.Abs(x));
+        anim.SetBool("Grounded", grounded);
+        if( x > 0)
         {
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-            move = -1;
+            transform.localScale = Vector2.one;
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (x < 0)
         {
-            transform.Translate(Vector2.right * -moveSpeed * Time.deltaTime);
-            move = 1;
+            transform.localScale = new Vector2(-1, 1);
         }
+        rbd.velocity = new Vector2(x * walkSpeed, rbd.velocity.y);
 
-        if (tanah == true &&(Input.GetKey(KeyCode.Mouse0)))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
-            jump.AddForce(new Vector2(0, kekuatanJump));
-        }
-
-        if (move > 0 && !back)
-        {
-            backMove();
-        }
-        else if (move <0 && back)
-        {
-            backMove();
+            Jump();
         }
     }
 
-    void backMove()
+    public float Jump()
     {
-        back = !back;
-        Vector3 karakter = transform.localScale;
-        karakter.x *= -1;
-        transform.localScale = karakter;
+        if(grounded)
+        {
+            rbd.AddForce(Vector2.up * jumpForce);
+           
+        }
+        return jumpForce;
 
     }
-        
-
     
 }
