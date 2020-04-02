@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Sponge, Patty]
+  tags:
+  - Sponge
+  - Patty
+  - Ground
+  - Karakter
   layers:
   - Default
   - TransparentFX
@@ -13,10 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
+  - Karakter
   - Background
   - Foreground
-  - 
   - 
   - 
   - 
